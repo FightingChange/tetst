@@ -1,0 +1,20 @@
+{
+    "name": "hexin/gqy",
+    "description": "first packages",
+    "authors": [
+        {
+            "name": "gao",
+            "email": "865636886@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+
+        "psr-4": {
+            "App\\": "app/",
+            "Hexin\\Gqy\\":"src/"
+
+        }
+    }
+}
